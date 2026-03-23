@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto #1 - Implementación del juego 2048</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="container hero-content">
+    <div class="brand-row">
+      <img src="assets/logo_ceutec.png" alt="Logo CEUTEC" class="brand logo-wide">
+      <img src="assets/logo_electronica.png" alt="Logo Ingeniería en Electrónica" class="brand logo-career">
+    </div>
+    <p class="eyebrow">Universidad Tecnológica Centroamericana (CEUTEC)</p>
+    <p class="meta-top">Carrera: Ingeniería en Electrónica · Asignatura: Arquitectura de Computadoras</p>
+    <h1>Proyecto #1 - Implementación del juego “2048” en pantalla OLED utilizando Arduino UNO</h1>
+    <p class="lead">Sitio académico del proyecto final con evidencia visual, documento PDF, enlace del video y código QR de acceso rápido.</p>
+    <div class="hero-actions">
+      <a href="#documentos" class="btn primary">Ver documento</a>
+      <a href="#imagenes" class="btn">Ver imágenes</a>
+      <a href="#multimedia" class="btn">Ver video y QR</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="section container card intro-card">
+  <div class="intro-text">
+    <h2>Resumen del proyecto</h2>
+    <p>La asignatura de Arquitectura de Computadoras exige comprender la interacción entre procesador, memoria, buses y dispositivos de entrada y salida para resolver problemas concretos mediante sistemas digitales. En este contexto, el equipo desarrolló una versión funcional del juego 2048 sobre una pantalla OLED de 0.96 pulgadas, empleando un Arduino Uno como unidad central de procesamiento y un teclado matricial 4x4 como interfaz de usuario.</p>
+    <p>El proyecto permitió aplicar programación embebida, estructuras de datos, control de flujo, comunicación I2C y manejo de periféricos. De esta forma, se demuestra cómo el hardware y el software pueden integrarse de manera coordinada para construir un sistema interactivo con valor académico y técnico.</p>
+  </div>
+  <div class="intro-image">
+    <img src="assets/group.jpg" alt="Grupo de trabajo del proyecto">
+  </div>
+</section>
+
+<section class="section container two-col">
+  <div class="card">
+    <h2>Información general</h2>
+    <ul class="info-list">
+      <li><strong>Universidad:</strong> Universidad Tecnológica Centroamericana (CEUTEC)</li>
+      <li><strong>Carrera:</strong> Ingeniería en Electrónica</li>
+      <li><strong>Asignatura:</strong> Arquitectura de Computadoras</li>
+      <li><strong>Proyecto:</strong> Implementación del juego “2048” en pantalla OLED utilizando Arduino UNO</li>
+      <li><strong>Grupo de trabajo:</strong> #1</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Integrantes</h2>
+    <ol class="members">
+      <li>Alison Nicole Orellana León — 62051020</li>
+      <li>Josué Abraham Ulloa — 62211303</li>
+      <li>Kevin Hernández — 61811772</li>
+      <li>Leonardo Aarón Martínez Molina — 22251055</li>
+      <li>Manuel Efraín Vásquez — 62241016</li>
+      <li>Víctor David Lovo Zaldívar — 62111478</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="section-header">
+    <h2>Descripción académica</h2>
+    <p>Implementación de un sistema embebido interactivo basado en lógica matricial, procesamiento de entradas y visualización en tiempo real.</p>
+  </div>
+  <div class="card reading">
+    <p>La propuesta consiste en desarrollar una versión operativa del juego 2048 dentro de un sistema embebido basado en Arduino Uno. El microcontrolador ejecuta la lógica del tablero, administra la memoria del juego y procesa las entradas realizadas por el usuario mediante un teclado matricial 4x4. Simultáneamente, la pantalla OLED recibe los datos mediante comunicación I2C y representa visualmente el estado actualizado del sistema.</p>
+    <p>Desde la perspectiva de Arquitectura de Computadoras, este trabajo demuestra cómo una unidad de procesamiento central interactúa con dispositivos de entrada y salida, cómo se organiza la información en memoria y cómo los algoritmos condicionan el comportamiento del sistema. La estructura de datos empleada para el tablero permite almacenar valores, validar movimientos, combinar fichas y actualizar el puntaje de manera eficiente dentro de las limitaciones del Arduino Uno.</p>
+    <p>Además del valor técnico, el proyecto fortaleció habilidades de análisis, programación, montaje electrónico, depuración y validación funcional, consolidando una experiencia de aprendizaje práctica y coherente con el nivel universitario de la asignatura.</p>
+  </div>
+</section>
+
+<section class="section container" id="imagenes">
+  <div class="section-header">
+    <h2>Galería de imágenes</h2>
+    <p>Montaje, funcionamiento y presentación final del proyecto.</p>
+  </div>
+  <div class="gallery">
+    <figure class="card photo">
+      <img src="assets/project1.jpg" alt="Montaje principal del proyecto">
+      <figcaption>Montaje principal del sistema con Arduino Uno, protoboard, pantalla OLED y teclado matricial.</figcaption>
+    </figure>
+    <figure class="card photo">
+      <img src="assets/project2.jpg" alt="Interacción con el proyecto">
+      <figcaption>Prueba funcional del juego mediante interacción directa del usuario.</figcaption>
+    </figure>
+    <figure class="card photo">
+      <img src="assets/project3.jpg" alt="Pruebas con computadora">
+      <figcaption>Conexión al entorno de desarrollo para carga, pruebas y validación del código.</figcaption>
+    </figure>
+    <figure class="card photo">
+      <img src="assets/group.jpg" alt="Grupo de trabajo">
+      <figcaption>Grupo de trabajo #1 durante la exposición del proyecto.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section container two-col" id="documentos">
+  <div class="card">
+    <h2>Documentos</h2>
+    <p>Consulta el informe académico completo del proyecto en formato PDF.</p>
+    <div class="stack">
+      <a class="btn primary full" href="assets/proyecto_final.pdf" target="_blank">Abrir PDF del proyecto</a>
+      <a class="btn full" href="assets/proyecto_final.pdf" download>Descargar PDF</a>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Enlaces</h2>
+    <p>Acceso directo al video demostrativo del proyecto.</p>
+    <div class="stack">
+      <a class="btn primary full" href="https://youtu.be/VtdngTWqn6c" target="_blank">Ver video en YouTube</a>
+    </div>
+  </div>
+</section>
+
+<section class="section container" id="multimedia">
+  <div class="section-header">
+    <h2>Video y código QR</h2>
+    <p>El video demostrativo puede abrirse desde el enlace o escanearse desde el código QR.</p>
+  </div>
+  <div class="media-grid">
+    <div class="card video-card">
+      <h3>Video demostrativo</h3>
+      <p>Demostración del funcionamiento del juego “2048” implementado en Arduino Uno con pantalla OLED y teclado matricial.</p>
+      <a class="btn primary" href="https://youtu.be/VtdngTWqn6c" target="_blank">Abrir video</a>
+      <p class="video-url">https://youtu.be/VtdngTWqn6c</p>
+    </div>
+    <div class="card qr-card">
+      <h3>Código QR del video</h3>
+      <img src="assets/qr_video.png" alt="Código QR del video" class="qr">
+      <p>Escanea este código para abrir el video desde un dispositivo móvil.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="card footer-card">
+    <h2>Cierre académico</h2>
+    <p>Este proyecto demuestra que los principios de Arquitectura de Computadoras se comprenden mejor cuando se aplican en una solución concreta. La implementación del juego 2048 permitió integrar memoria, lógica de control, periféricos e interacción usuario-sistema dentro de un entorno de recursos limitados, logrando una propuesta funcional, ordenada y adecuada para el nivel universitario.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="assets/logo_ct.png" alt="Logo CT" class="footer-logo">
+    <div>
+      <p><strong>Proyecto académico universitario</strong></p>
+      <p>Arquitectura de Computadoras · Ingeniería en Electrónica · CEUTEC</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
